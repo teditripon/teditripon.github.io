@@ -24,8 +24,8 @@ function runAway() {
     count++;
     let top = Math.random() * 100;
     let left = Math.random() * 100;
-    left = left > 90 ? left : left - 10;
-    top = top > 90 ? top : top - 10;
+    left = left > 90 ? left-10 : left;
+    top = top > 90 ? top-10 : top;
 
     btn.style.left = left + "%";
     btn.style.top = top + "%";

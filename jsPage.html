@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Javascript Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body onload="onInit()">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <header>
+          <h2>JavaScript</h2>
+        </header>
+        <section>
+          <nav>
+            <ul>
+              <li><a href="htmlPage.html">HTML</a></li>
+              <li><a href="cssPage.html">CSS</a></li>
+              <li><a href="jsPage.html">JavaScript</a></li>
+            </ul>
+          </nav>
+
+          <article>
+            <h1>Some Title</h1>
+            <p>some text</p>
+            <p>some text again</p>
+          </article>
+        </section>
+
+        <footer>
+          <p>Footer</p>
+        </footer>
+
+        <button type="button" class="theBtn btn btn-danger" id="theButton" onmouseover="runAway()"
+          onclick="wasClicked()">
+          Do NOT Click Me!</button>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
